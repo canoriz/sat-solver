@@ -1,4 +1,5 @@
 *.o
+*.res
 
 solver
 
