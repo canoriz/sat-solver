@@ -33,7 +33,7 @@ tests/satisfied/S/problem3-100.res
 
 Check answers
 ```
-./checker tests/satisfied/S/problem3-100.res
+./checker tests/satisfied/S/problem3-100.cnf
 ```
 if the output is ```1``` then the answer is corrent.
 
