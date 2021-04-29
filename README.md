@@ -39,21 +39,24 @@ if the output is ```1``` then the answer is corrent.
 
 
 ### Solve SAT problem
-```./solver cnf path-to-cnf-file```
+```
+./solver cnf path-to-cnf-file
+```
 
 ### Check SAT problem answers
-``` ./checker path-to-cnf-file```
+```
+./checker path-to-cnf-file
+```
 
 ### Play binary puzzle
-```./solver sud N```, in which ```N``` is an arbitrary positive even number.
+```./solver sud N``` in which ```N``` is an arbitrary positive even number.
 
 This will generate a unique answer random N times N binary puzzle and solve it.
 
-For more information about binary puzzle , see (binarypuzzle.com)[https://binarypuzzle.com/].
+For more information about binary puzzle , see [binarypuzzle](https://binarypuzzle.com/).
 
 ## Data formats
-The SAT problem data and answer is described in the DIMACS format. A simple explanation is at 
-[satcompetitions.org](http://www.satcompetition.org/2004/format-solvers2004.html).
+The SAT problem data and answer is described in the DIMACS format. A simple explanation is at  [satcompetitions](http://www.satcompetition.org/2004/format-solvers2004.html).
 
 ## Note
 The answer to one ```whatever-name.cnf``` file will be stored in ```whatever-name.res``` in the same path of ```.cnf``` file.
@@ -67,4 +70,4 @@ You can substitute my version for a C++ library version.
 ## References
 I read many documents to complete my SAT solver.
 
-One is MiniSAT's (paper)[http://minisat.se/Papers.html].
+One is MiniSAT's [paper](http://minisat.se/Papers.html).
